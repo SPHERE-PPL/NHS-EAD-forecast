@@ -62,10 +62,10 @@ There are 140 days within the 1 October 2025 to 17 February 2026 range of the as
 Competitors must use their submitted algorithm to generate forecasts for each day in all 131 periods. Forecast accuracy will be evaluated using Mean Squared Error (MSE) over the 1–5-day and 6–10-day horizons, as defined below:
 
 **MSE for days 1–5:**
-MSE₁–₅d = (1 / (173 × 5)) × Σₚ₌₁¹⁷³ Σ𝑑₌₁⁵ (Yₚ,𝑑 - Ŷₚ,𝑑)²
+MSE₁–₅d = (1 / (131 × 5)) × Σₚ₌₁¹³¹ Σ𝑑₌₁⁵ (Yₚ,𝑑 - Ŷₚ,𝑑)²
 
 **MSE for days 6–10:**
-MSE₆–₁₀d = (1 / (173 × 5)) × Σₚ₌₁¹⁷³ Σ𝑑₌₆¹⁰ (Yₚ,𝑑 - Ŷₚ,𝑑)²
+MSE₆–₁₀d = (1 / (131 × 5)) × Σₚ₌₁¹³¹ Σ𝑑₌₆¹⁰ (Yₚ,𝑑 - Ŷₚ,𝑑)²
 
 Here, Yₚ,𝑑 is the observed value and Ŷₚ,𝑑 is the forecast for day d within period p. For example, Y₄,₃ corresponds to 6 Oct 2025 (the third day of the fourth period), and note that Y₄,₃ = Y₁,₆ = Y₂,₅ = Y₃,₄.
 
