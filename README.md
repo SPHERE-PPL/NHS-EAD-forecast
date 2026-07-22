@@ -57,9 +57,9 @@ To download the data without a github account, click the code box dropdown and d
 
 ### How to Win!
 
-There are 182 days within the 1 October 2025 to 17 February 2026 range of the assessment dataset, meaning there are 173 sliding 10-day forecast periods (e.g., 1–10 Oct 2025 to 7–17 Feb 2026). 
+There are 140 days within the 1 October 2025 to 17 February 2026 range of the assessment dataset, meaning there are 131 sliding 10-day forecast periods (e.g., 1–10 Oct 2025 to 7–17 Feb 2026). 
 
-Competitors must use their submitted algorithm to generate forecasts for each day in all 173 periods. Forecast accuracy will be evaluated using Mean Squared Error (MSE) over the 1–5-day and 6–10-day horizons, as defined below:
+Competitors must use their submitted algorithm to generate forecasts for each day in all 131 periods. Forecast accuracy will be evaluated using Mean Squared Error (MSE) over the 1–5-day and 6–10-day horizons, as defined below:
 
 **MSE for days 1–5:**
 MSE₁–₅d = (1 / (173 × 5)) × Σₚ₌₁¹⁷³ Σ𝑑₌₁⁵ (Yₚ,𝑑 - Ŷₚ,𝑑)²
